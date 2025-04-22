@@ -46,7 +46,7 @@ const WorkExperienceSection = () => (
         {experience.projects.map((project) => (
           <Project
             key={project.title}
-            title={project.title}
+            // title={project.title}
             descriptions={project.descriptions}
             tags={project.tags}
           />

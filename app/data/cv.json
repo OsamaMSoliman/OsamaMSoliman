@@ -8,42 +8,64 @@
         {
           "title": "LLM-HUB",
           "descriptions": [
-            "Decouple UI into standalone React app for modularity and scalability",
-            "Description 2 of project1"
+            "Collaborated with a team of 3 developers to decouple a Streamlit LLM chatbot into a standalone Remix app with a FastAPI backend for modularity and scalability",
+            "Employed Ant Design to create a modern, user-friendly interface",
+            "Facilitated file management between users by establishing knowledge banks",
+            "Streamlined repetitive user tasks by introducing a template-based feature"
           ],
           "tags": [
-            "tag1",
-            "tag2"
+            "React",
+            "Remix",
+            "Typescript",
+            "Antd",
+            "FastApi",
+            "Python"
           ]
         },
         {
           "title": "Translation-Check",
           "descriptions": [
-            "Implemented React components for an AI translation checker"
+            "Implemented React components for an AI translation checker of business documents",
+            "Implemented a robust backend using FastAPI to handle file uploads, model interactions, and data processing"
           ],
           "tags": [
-            "tag1",
-            "tag2"
+            "React",
+            "Typescript",
+            "Bootstrap-V5",
+            "Redux-Toolkit",
+            "RESTful API",
+            "FastApi",
+            "Python"
           ]
         },
         {
-          "title": "ML-gym",
+          "title": "ML-Board",
           "descriptions": [
-            "Visualize a deep ML framework data in a React web app"
+            "Visualized the incoming data of a deep learning framework in a React web app",
+            "Tested different graph libraries to find the best fit for high demand of the project",
+            "Utilized Web-Sockets and Web-Workers to handle the high volume data stream in real-time",
+            "Implemented a Redux-Toolkit state management system to handle the data flow and user interactions"
           ],
           "tags": [
-            "tag1",
-            "tag2"
+            "React",
+            "MUI",
+            "Redux-Toolkit",
+            "Web-Sockets",
+            "Web-Workers",
+            "Typescript"
           ]
         },
         {
           "title": "Hemangioma",
           "descriptions": [
-            "Created an anonymity-focused image manipulation tool in Unity"
+            "Created an anonymity-focused image manipulation tool in Unity",
+            "Developed a Unity tool for anonymity-focused image manipulation to assist doctors and pediatric patients",
+            "Enabled parents to map skin disease images onto a generic 3D baby model for privacy-preserving consultations",
+            "Generated augmented images for ML analysis while providing preliminary diagnoses to patients"
           ],
           "tags": [
-            "tag1",
-            "tag2"
+            "Unity3D",
+            "C#"
           ]
         }
       ]
@@ -63,8 +85,12 @@
             "Collaborated with a team of 5 developers to design and implement a new inventory management system, resulting in a 20% reduction in inventory costs."
           ],
           "tags": [
-            "tag1",
-            "tag2"
+            "HTML",
+            "CSS",
+            "Js",
+            "Bootstrap",
+            "Oracle database",
+            "VM virtual machine"
           ]
         }
       ]
@@ -75,7 +101,7 @@
       "degree": "M.Sc. in Computer Science",
       "duration": "Oct 2020 -- Sep 2024",
       "location": "Bonn, Germany",
-      "project": "graduation thesis: bla bla bla"
+      "project": "graduation thesis: Age-Enhanced Data Efficiency: exploiting Patient age information for optimized training in medical image processing"
     },
     "Faculty of Engineering, Alexandria University": {
       "degree": "B.Sc. in Computer Engineering",

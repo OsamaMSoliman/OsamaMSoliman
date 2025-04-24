@@ -8,16 +8,18 @@ interface IProps {
 
 export default function Project({ title, descriptions, tags }: IProps) {
   return (
-    <div className="flex gap-2">
+    <div className="flex">
       {title && (
-        <div className="flex-none border-r bg-amber-600">
-          <p className="text-center">{title}</p>
+        <div className="flex-none pr-2">
+          <p className="text-center w-24 underline underline-offset-4">
+            {title}
+          </p>
         </div>
       )}
       <div>
         <ul className="list-inside list-disc">
           {descriptions.map((description) => (
-            <li>{description}</li>
+            <li key={description}>{description}</li>
           ))}
         </ul>
         {!!tags.length && <Tags tags={tags} />}

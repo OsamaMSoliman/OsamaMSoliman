@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
 
 interface IProps {
   header: string;
@@ -8,7 +8,7 @@ interface IProps {
 export default function Section({ header, children }: IProps) {
   return (
     <>
-      <div className="flex gap-2">
+      <div className="flex gap-2 mt-2">
         <p className="text-2xl">{header}</p>
         <div className="grow border-b" />
       </div>

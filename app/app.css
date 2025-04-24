@@ -6,7 +6,9 @@
 }
 
 html {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-gray-50 dark:bg-gray-950;
+
+  font-size: smaller;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
@@ -14,7 +16,9 @@ html {
 }
 
 body{
-  padding: 2.5rem;
+  @apply bg-white;
+  
+  padding: 2rem 3.5rem;
   width: 210mm; /* A4 width */
   height: 297mm; /* A4 height */
   margin: 0 auto; /* Center the page */
@@ -27,12 +31,13 @@ body{
 
 @page {
   size: A4 portrait !important;
-  margin: 20mm;
+  margin: 0;
   padding: 10px;
 }
 
 ul > li{
   list-style-type: '» ';
+  /* list-style-type: '🔻'; */
   padding-inline-start: 1rem;
 
   /* &::marker {

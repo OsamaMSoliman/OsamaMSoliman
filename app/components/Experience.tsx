@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
 
 interface IProps {
   tl: string /* top-left */;
@@ -10,13 +10,13 @@ interface IProps {
 export default function Grid4x4({ tr, tl, br, bl, children }: IProps) {
   return (
     <>
-      <div className="flex justify-between">
-        <p className="bg-red-500">{tl}</p>
-        <p className="bg-blue-500">{tr}</p>
+      <div className="flex justify-between font-bold">
+        <p>{tl}</p>
+        <p>{tr}</p>
       </div>
-      <div className="flex justify-between">
-        <p className="bg-yellow-500">{bl}</p>
-        <p className="bg-green-500">{br}</p>
+      <div className="flex justify-between font-bold">
+        <p>{bl}</p>
+        <p>{br}</p>
       </div>
       {children}
     </>

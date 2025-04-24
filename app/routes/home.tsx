@@ -1,18 +1,18 @@
 import type { Route } from './+types/home';
 
-import PersonalInfo from '~/components/PersonalInfo';
 import Experience from '~/components/Experience';
+import PersonalInfo from '~/components/PersonalInfo';
 import Project from '~/components/Project';
 import Section from '~/components/Section';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'New React Router App' },
-    { name: 'description', content: 'Welcome to React Router!' },
+    { title: 'Resume' },
+    { name: 'description', content: 'My Protfolio' },
   ];
 }
 
-import { Experiences, Education } from '~/data/cv.json';
+import { Education, Experiences, Projects } from '~/data/cv.json';
 
 const generateRandomArray = (maxLength: number = 10) =>
   Array.from({ length: Math.floor(Math.random() * maxLength) }, (_, i) => i);
@@ -27,7 +27,8 @@ const EducationSection = () => (
         bl={education.degree}
         br={education.duration}
       >
-        <p>{education.project}</p>
+        {/* <Project key={school} descriptions={[education.project]} tags={[]} /> */}
+        <p className="ps-4">{education.project}</p>
       </Experience>
     ))}
   </Section>
@@ -57,26 +58,32 @@ const WorkExperienceSection = () => (
 );
 
 const ProjectsSection = () => (
-  <Section header="Projects">
-    <Project
-      title="Title"
-      descriptions={generateRandomArray().map((i) => `Description ${i}`)}
-      tags={generateRandomArray().map((i) => `Tag ${i}`)}
-    />
-    <Project
-      title="Title"
-      descriptions={generateRandomArray().map((i) => `Description ${i}`)}
-      tags={generateRandomArray().map((i) => `Tag ${i}`)}
-    />
+  <Section header="Selected Projects">
+    {Projects.map((project) => (
+      <Project
+        key={project.title}
+        title={project.title}
+        descriptions={project.descriptions}
+        tags={project.tags}
+      />
+    ))}
   </Section>
 );
 
 export default function CV() {
   return (
     <>
-      <PersonalInfo />
-      <EducationSection />
+      <PersonalInfo
+        title="Software Engineer"
+        name="Osama Soliman"
+        address="Altena, Germany"
+        email="soliman21de@gmail.com"
+        phone="+49 157 50625615"
+        github="OsamaMSoliman"
+        linkedin="osama-nsr"
+      />
       <WorkExperienceSection />
+      <EducationSection />
       <ProjectsSection />
     </>
   );

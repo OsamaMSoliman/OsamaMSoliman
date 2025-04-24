@@ -8,64 +8,70 @@
         {
           "title": "LLM-HUB",
           "descriptions": [
-            "Collaborated with a team of 3 developers to decouple a Streamlit LLM chatbot into a standalone Remix app with a FastAPI backend for modularity and scalability",
-            "Employed Ant Design to create a modern, user-friendly interface",
-            "Facilitated file management between users by establishing knowledge banks",
-            "Streamlined repetitive user tasks by introducing a template-based feature"
+            "Collaborated with a team of 3 developers to decouple a Streamlit LLM chatbot into a standalone Remix app with a FastAPI backend for modularity and scalability.",
+            "Employed Ant Design to create a modern, user-friendly interface.",
+            "Established knowledge banks to facilitate file management between users.",
+            "Streamlined repetitive tasks for users by introducing a template-based feature."
           ],
           "tags": [
             "React",
             "Remix",
-            "Typescript",
-            "Antd",
-            "FastApi",
-            "Python"
+            "TypeScript",
+            "Ant Design",
+            "FastAPI",
+            "Python",
+            "PNPM",
+            "Git"
           ]
         },
         {
           "title": "Translation-Check",
           "descriptions": [
-            "Implemented React components for an AI translation checker of business documents",
-            "Implemented a robust backend using FastAPI to handle file uploads, model interactions, and data processing"
+            "Developed React components for an AI-powered translation checker, enabling validation of business documents.",
+            "Co-built a scalable FastAPI backend to handle file uploads and model integrations, with server-sent events."
           ],
           "tags": [
             "React",
-            "Typescript",
-            "Bootstrap-V5",
-            "Redux-Toolkit",
+            "SSE",
+            "TypeScript",
+            "Bootstrap",
+            "Redux Toolkit",
             "RESTful API",
-            "FastApi",
-            "Python"
+            "FastAPI",
+            "Python",
+            "Git"
           ]
         },
         {
           "title": "ML-Board",
           "descriptions": [
-            "Visualized the incoming data of a deep learning framework in a React web app",
-            "Tested different graph libraries to find the best fit for high demand of the project",
-            "Utilized Web-Sockets and Web-Workers to handle the high volume data stream in real-time",
-            "Implemented a Redux-Toolkit state management system to handle the data flow and user interactions"
+            "Designed dynamic visualizations in React for complex data streams from a deep learning framework.",
+            "Evaluated multiple graph libraries to optimize performance for real-time data visualization.",
+            "Leveraged WebSockets and Web Workers for real-time processing of high-volume data streams.",
+            "Integrated Redux Toolkit for efficient state management."
           ],
           "tags": [
             "React",
             "MUI",
-            "Redux-Toolkit",
-            "Web-Sockets",
-            "Web-Workers",
-            "Typescript"
+            "Redux Toolkit",
+            "WebSockets",
+            "Web Workers",
+            "TypeScript",
+            "NPM",
+            "Git"
           ]
         },
         {
           "title": "Hemangioma",
           "descriptions": [
-            "Created an anonymity-focused image manipulation tool in Unity",
-            "Developed a Unity tool for anonymity-focused image manipulation to assist doctors and pediatric patients",
-            "Enabled parents to map skin disease images onto a generic 3D baby model for privacy-preserving consultations",
-            "Generated augmented images for ML analysis while providing preliminary diagnoses to patients"
+            "Created an anonymity-focused image manipulation tool in Unity to assist doctors and pediatric patients.",
+            "Enabled patients to map skin disease images onto a generic 3D baby model for privacy-preserving consultations.",
+            "Generated augmented images for ML analysis while providing preliminary diagnoses to patients."
           ],
           "tags": [
             "Unity3D",
-            "C#"
+            "C#",
+            "Git"
           ]
         }
       ]
@@ -78,19 +84,22 @@
         {
           "title": "ERP System Overhaul",
           "descriptions": [
-            "Revitalized the ERP system's user interface, resulting in streamlined workflows and enhanced user satisfaction.",
-            "Architected a robust RESTful server to facilitate seamless communication between the UI and backend database systems.",
-            "Led database optimization initiatives—including cleaning and migration strategies—to significantly improve system performance",
-            "Developed a new patient management system that reduced the time required to manage patient records by 30%.",
-            "Collaborated with a team of 5 developers to design and implement a new inventory management system, resulting in a 20% reduction in inventory costs."
+            "Revitalized the UI of the hospital's ERP system, resulting in seamless workflows and enhanced user satisfaction.",
+            "Architected a robust Express RESTful server to facilitate seamless communication between the UI and DB.",
+            "Led DB optimization initiatives, e.g. schema updates and data cleanup, achieving notable performance enhancements.",
+            "Developed a new patient management system that reduced the time required to manage patient records by 30%."
           ],
           "tags": [
             "HTML",
             "CSS",
             "Js",
             "Bootstrap",
-            "Oracle database",
-            "VM virtual machine"
+            "Oracle DB",
+            "VM",
+            "Node",
+            "Express",
+            "RESTful API",
+            "SQL"
           ]
         }
       ]
@@ -99,17 +108,72 @@
   "Education": {
     "Institute for Computer Science, Bonn University": {
       "degree": "M.Sc. in Computer Science",
-      "duration": "Oct 2020 -- Sep 2024",
+      "duration": "Oct 2020 - Jun 2025",
       "location": "Bonn, Germany",
-      "project": "graduation thesis: Age-Enhanced Data Efficiency: exploiting Patient age information for optimized training in medical image processing"
+      "project": "Graduation thesis: Informed Transfer Learning for Medical Image Processing (exploiting patient age metadata)"
     },
     "Faculty of Engineering, Alexandria University": {
       "degree": "B.Sc. in Computer Engineering",
-      "duration": "Oct 2013 -- Jun 2018",
+      "duration": "Oct 2013 - Jun 2018",
       "location": "Alexandria, Egypt",
-      "project": "graduation project: bla bla bla"
+      "project": "Graduation project: Action Adventure Shooting Game with Time Travel Elements Using Unreal Engine 4"
     }
   },
   "Skills": {},
-  "Projects": {}
+  "Projects": [
+    {
+      "title": "KingKebap",
+      "descriptions": [
+        "KingKebap – Food Ordering Website | 🔗 Live Demo | GitHub",
+        "timing cababilities for showing the opening hours of the restaurant and also the offers of the day.",
+        "used nodemailer to send emails to the restaurant owner when a new order is placed as well as the customer.",
+        "Web app for a local Restaurant with a menu, ordering system, and contact form.",
+        "Food odering platform for a local döner restaurant.",
+        "deployed on netlify",
+        "full-stack Restaurant web app for placing orders for delievery or picking up."
+      ],
+      "tags": [
+        "ReactRouter v7",
+        "NodeMailer",
+        "Netlify",
+        "tailwindcss",
+        "Zustand",
+        "Git"
+      ]
+    },
+    {
+      "title": "2Euro",
+      "descriptions": [
+        "deployed on firebase",
+        "fullstack website for a shared collection of 2 euro coin (tracking the count of the collected coins of different ranks)",
+        "firebase is used as backend for authentication and real time database"
+      ],
+      "tags": [
+        "Firebase",
+        "React",
+        "MUI",
+        "Git"
+      ]
+    },
+    {
+      "title": "Budgeting Checkout",
+      "descriptions": [
+        "deployed on github pages",
+        "Progressive web app for setting budgets when shopping and tracking items prices before checking out."
+      ],
+      "tags": [
+        "PWA",
+        "Zustand",
+        "React",
+        "vite",
+        "vitest",
+        "TypeScript",
+        "MUI",
+        "immer",
+        "eslint",
+        "gh-pages",
+        "Git"
+      ]
+    }
+  ]
 }
